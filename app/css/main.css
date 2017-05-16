@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	vertical-align: top;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+body {
+	background-color: #DDDDDD;
+}
+.mainContainer {
+	max-width: 950px;
+	margin: 50px auto;
+	float: none;
+	display: block;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+.mainHeader {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	padding: 10px;
+	border-bottom: solid 1px #000000;
+}
+.mainHeader > ul {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	margin: 0;
+}
+.mainHeader > ul > li {
+	float: left;
+	display: inline-block;
+}
+.mainFooter {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	padding: 10px;
+	background-color: #444444;
+	color: #FFFFFF;
+	text-align: center;
+}
+.logoHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	height: 30px;
+}
+.logoHolder img {
+	height: 100%;
+	width: auto;
+	float: left;
+	overflow: hidden;
+	display: block;
+}
+.menu > ul {
+	margin: 0;
+	width: auto;
+	float: right;
+	overflow: hidden;
+	display: block;
+}
+.menu > ul > li {
+	float: left;
+	overflow: hidden;
+	display: inline-block;
+}
+.menu > ul > li.active {
+	background-color:rgba(68, 68, 68, 0.5);
+	color:#FFFFFF;
+}
+.menu > ul > li.active a {
+	color: #FFFFFF;
+	cursor: auto;
+}
+.menu > ul > li a {
+	color: #444444;
+	text-transform: uppercase;
+	line-height: 30px;
+	display: inline-block;
+	float: left;
+	text-decoration: none;
+	padding: 0 15px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.menu > ul > li a:hover {
+	background-color:#444444;
+	color:#FFFFFF;
+}
+.userTopHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+}
+.userTopHolder span {
+	float: right;
+	overflow: hidden;
+	display: inline-block;
+	font-size: 11px;
+	color: #880505;
+	font-weight: bold;
+	line-height: 30px;
+}
+.contentHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	padding: 10px;
+	border-top:solid 1px #444444;
+	border-bottom:solid 1px #444444;
+}
+.visitorContentHolder {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+}
+.visitorContentHolder > ul {
+	margin: 20px auto;
+	float: none;
+	display: block;
+	overflow: hidden;
+}
+.visitorContentHolder > ul > li {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	margin: 0 0 5px;
+}
+.visitorContentHolder > ul > li label {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	line-height: 30px;
+	color: #444444;
+}
+.visitorContentHolder > ul > li input {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	border: solid 1px #DDDDDD;
+	line-height: 30px;
+	padding: 0 10px;
+}
+.visitorContentHolder > ul > li.notification {
+	text-align: center;
+	font-size: 18px;
+	color: #444444;
+}
+.visitorContentHolder > ul > li > button {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+	display: block;
+	line-height: 30px;
+	background-color: #0981c1;
+	color: #FFFFFF;
+	border: none;
+	font-weight: bold;
+}
